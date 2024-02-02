@@ -4,4 +4,4 @@ channels:
   - conda-forge
 dependencies:
   - xeus-python
-  - ipycanvas
+  - requests

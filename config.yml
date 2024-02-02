@@ -149,6 +149,10 @@ packages:
     include_patterns:
       - pattern: '*.py'
       - pattern: '**/contrib/emscripten/emscripten_fetch_worker.js'
+  certifi:
+    include_patterns:
+      - pattern: '*.py'
+      - pattern: '*.pem'
 default:
   include_patterns:
     - pattern: '*.so'

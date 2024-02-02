@@ -148,7 +148,7 @@ packages:
   urllib3:
     include_patterns:
       - pattern: '*.py'
-      - pattern: '**/config/emscripten/emscripten_fetch_worker.js'
+      - pattern: '**/contrib/emscripten/emscripten_fetch_worker.js'
 default:
   include_patterns:
     - pattern: '*.so'

@@ -31,7 +31,7 @@ jobs:
         shell: bash -l {0}
         run: |
           cp README.md content
-          jupyter lite build --contents content --output-dir dist --XeusAddon.empack_config=config.yml
+          jupyter lite build --contents content --output-dir dist --XeusAddon.empack_config=config.yml --XeusAddon.mounts=./js:/lib/python3.11/site-packages/js,./pyodide:/lib/python3.11/site-packages/pyodide
 
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
